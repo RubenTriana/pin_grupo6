@@ -1,0 +1,43 @@
+:root{
+    --colorprincipal: RGB(135, 206, 250);
+    --verdesuave: RGB(144, 238, 144);
+    --blanco: RGB(255, 255, 255);
+    --grisclaro: RGB(211, 211, 211);
+    --lavanda: RGB(230, 230, 250);
+    --fuenteprincipal: verdana;
+}
+
+.carousel-caption h5{
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: var(--fuenteprincipal)
+}
+
+.carousel-caption p{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: var(--fuenteprincipal)
+}
+
+.jumbotron{
+    margin-top: 3rem;
+    
+}
+
+.jumbotron h1{
+    color: var(--colorprincipal);
+    font-family: var(--fuenteprincipal);
+}
+
+.jumbotron .btn-call-action{
+    background-color: var(--colorprincipal);
+    color: var(--blanco);
+    font-family: var(--fuenteprincipal);
+    cursor: pointer;
+}
+
+.jumbotron .btn-call-action:hover{
+    background-color: var(--verdesuave);
+    color: black;
+    opacity: 0.7;
+}
