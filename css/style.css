@@ -1,4 +1,9 @@
 
+.navbar-center{
+    display: flex;
+    justify-content: center;
+}
+
 :root{
     --colorprincipal: RGB(135, 206, 250);
     --verdesuave: RGB(144, 238, 144);
